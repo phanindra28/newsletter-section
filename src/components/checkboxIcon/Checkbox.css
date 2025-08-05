@@ -1,21 +1,21 @@
 .checkmark-container {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: #EEF2FE;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #eef2fe;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
 }
 
 .checkmark-icon {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
-.checkbox-container{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    color: #525252;
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #525252;
 }
