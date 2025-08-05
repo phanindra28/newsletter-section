@@ -1,12 +1,12 @@
 import "./App.css";
 import Checkbox from "./components/checkboxIcon/Checkbox.jsx";
 import { handleFormSubmit } from "./action/Action.js";
-
+import abstractImage from './img/abstract.png';
 function App() {
   return (
     <div className={"container gap-4"}>
       <div className={"left-container"}>
-        <div className={"text-5xl font-semibold"}>
+        <div className={"font-semibold title"}>
           {" "}
           Get the finest curated abstracts delivered weekly to your inbox
         </div>
@@ -42,7 +42,7 @@ function App() {
       </div>
       <div className={"right-container"}>
         <img
-          src={"/src/img/abstract.jpg"}
+          src={abstractImage}
           alt={"illustration"}
           width={"100%"}
           height={"100%"}
